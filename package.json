@@ -1,0 +1,29 @@
+{
+  "name": "ri-code-theme",
+  "displayName": "ri.code: theme",
+  "description": "Make Stuff faster (rgb = fps)",
+  "publisher": "ri.code",
+  "author": {
+    "name": "Actually_Rico"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.69.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/actuay/ri.code_theme.git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ri.code: Color Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ri.code Color Theme-color-theme.json"
+      }
+    ]
+  }
+}
